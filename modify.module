@@ -1,0 +1,9 @@
+<?php
+
+function modify_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+   //print_r($form_id);
+   
+    $form['#attached']['library'][] = 'modify/search';
+}
+
+?>

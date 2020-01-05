@@ -1,0 +1,9 @@
+search:
+  js:
+    js/jquery.js: {}
+    js/test.js: {}
+  dependencies:
+    core/drupalSettings
+    core/jquery
+    core/jquery.once
+  
